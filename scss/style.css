@@ -4,22 +4,13 @@
 }
 
 .ourmenu {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/contact_page_barner.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/contact_page_barner.jpg);
-  background-attachment: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/contact_page_barner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact_page_barner.jpg);
   min-height: 60vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-}
-
-main {
-  border: 3px solid blue;
-  text-align: center;
-}
-
-header {
-  border: 3px solid red;
+  background-position: center center;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=style.css.map */
